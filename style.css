@@ -1,0 +1,70 @@
+.childnav{
+    display: inline-block;
+    width:150px;
+    font-size: x-large;
+    background-color: rgb(92, 26, 154);
+    text-align: center;
+    margin-top: 4px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(0, 203, 203);
+}
+.childnav1{
+    display: inline-block;
+    width:150px;
+    font-size: x-large;
+    color: rgb(0, 203, 203);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(92, 26, 154);
+    text-align: center;
+    margin-left: 50px;
+}
+.navbox{
+    border: 3px solid black;
+    height: 60px;
+    line-height: 50px;
+}
+.deakinphto{
+    background-image: url(https://www.stonybrook.edu/commcms/studyabroad/_images/outgoing-banner-images/all-year-website-photos/austrailia/deakinburwood-banner.png);
+    height: 550px;
+    width: 1520px;
+    background-size: cover;
+}
+.hovertext{
+    background-color: rgba(0, 0, 0, 0.489);
+    color: whitesmoke;
+    text-align: center;
+    font-size: x-large;
+    position:absolute ;
+    top: 550px;
+    width: 100%;
+    opacity: 0;
+}
+.deakinphto:hover .hovertext{
+    opacity: 1;
+    transition: 3s;
+
+}
+.profilephoto{
+    margin-top: 60px;
+    text-align: center;
+
+}
+.phto{
+    border-radius: 50%;
+}
+hr{
+    width: 300px;
+    height: 2px;
+    background-color: black;
+}
+.project1{
+    text-align: center;
+    color: brown;
+}
+.project2{
+    text-align: center;
+    color: chocolate;
+}
+.info{
+    text-align: center;
+}
